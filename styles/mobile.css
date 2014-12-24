@@ -1,0 +1,64 @@
+/* Large desktops and laptops lg */
+@media only screen and (min-device-width: 1200px) {
+
+}
+
+/* Portrait tablets and medium desktops md */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops sm */
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+
+	.transition-arrow{
+		display: none;
+	}
+
+	.page3 .figure, .page4 .figure{
+		margin-top: 40px;
+	}
+
+	.product{
+		border-bottom: solid 1px #292929;
+		padding-bottom: 40px;
+		margin-bottom: 50px;
+	}
+}
+
+/* Landscape phones and portrait tablets xs */
+@media only screen and (max-device-width: 767px) {
+	.sub-text, .main-text{
+		padding: 0 10px;
+	}
+
+	.figures{
+		margin-top: 0px;
+	}
+
+	#page3 .figure{
+		height: auto;
+	}
+
+	.figure{
+		font-size: 60px;
+	}
+
+	.transition-arrow{
+		display: none;
+	}
+
+	.page3 .figure, .page4 .figure{
+		margin-top: 40px;
+	}
+
+	.product{
+		border-bottom: solid 1px #292929;
+		padding-bottom: 40px;
+		margin-bottom: 50px;
+	}
+
+	.page, footer{
+		padding-top: 50px;
+	}
+}
